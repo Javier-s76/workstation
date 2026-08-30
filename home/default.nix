@@ -8,6 +8,7 @@
   imports = [
     ./theme.nix
     ./modules/zsh.nix
+    ./modules/kitty.nix
   ];
 
   home.packages = with pkgs; [
@@ -23,11 +24,8 @@
     nixfmt-rfc-style
     stylua
     black
-    kitty
     fd
     fetch
-    yazi
-    cava
     fastfetch
   ];
 
